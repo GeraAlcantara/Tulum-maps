@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import WrapperVh from "./WrapperVh"
 
 import Header from "./header"
 import "./layout.css"
@@ -24,24 +25,37 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <WrapperVh>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <main
+          style={{
+            height: `calc(100% - 100px)`
+          }}
+        >
+          {children}
+        </main>
+        <footer
+          style={{
+            margin: `0 auto`,
+            width: `100%`,
+            position: "fixed",
+            bottom: `0`,
+            textAlign: `center`,
+            backgroundColor: `#8DC6BD`,
+            fontFamily: `Helvetica, Arial, sans-serif`,
+          }}
+        >
+          <p
+            style={{
+              margin: `5px auto 5px auto`,
+            }}
+          >
+            {" "}
+            © {new Date().getFullYear()}, Tulum-maps
+          </p>
         </footer>
-      </div>
-    </>
+      
+    </WrapperVh>
   )
 }
 

@@ -1,14 +1,15 @@
 import { red } from "@material-ui/core/colors"
-import { createMuiTheme } from "@material-ui/core/styles"
+import { createMuiTheme, responsiveFontSizes } from "@material-ui/core/styles"
 
 // A custom theme for this app
-const theme = createMuiTheme({
+
+let theme = createMuiTheme({
   palette: {
     primary: {
       main: "#556cd6",
     },
     secondary: {
-      main: "#19857b",
+      main: "#F34B68",
     },
     error: {
       main: red.A400,
@@ -16,7 +17,17 @@ const theme = createMuiTheme({
     background: {
       default: "#fff",
     },
+    mycolor: {
+      main: "#fff",
+    },
   },
+  typography: {
+    fontFamily: '"Fredoka One", "Helvetica", "Arial", sans-serif',
+    
+  },
+  
 })
+theme = responsiveFontSizes(theme, ["xs", "sm", "md", "lg", "xl"])
 
 export default theme
+

@@ -1,0 +1,22 @@
+
+.svg {
+    width: 200px ;
+    margin-bottom: 0;
+    margin-right: 20px;
+    
+}
+
+.wrapperLanding {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100% - 20px);
+    color: white;
+    
+
+    & img{
+        margin-bottom: 0;
+        margin-right: 20px;
+        
+    }
+}
