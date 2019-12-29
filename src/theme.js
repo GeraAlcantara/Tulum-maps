@@ -25,7 +25,6 @@ let theme = createMuiTheme({
     fontFamily: '"Fredoka One", "Helvetica", Arial, sans-serif',
     
   },
-  
 })
 theme = responsiveFontSizes(theme, ["xs", "sm", "md", "lg", "xl"])
 

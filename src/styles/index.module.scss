@@ -4,7 +4,6 @@
     width: 200px ;
     margin-bottom: 0;
     margin-right: 20px;
-    
 }
 
 .wrapperLanding {
@@ -14,7 +13,7 @@
     height: calc(100% - 20px);
     color: white;
     position: relative;
-    top: 100px;
+    top: 120px;
     
     & > * {
         padding: 1rem;
@@ -22,11 +21,43 @@
 
     & img{
         margin-bottom: 0;
-        height: 150px ;
+        height: 180px ;
+
+        @include MediumDevices{
+            height: 320px;
+        }
     }
 
     @include XSLandscape{
         position: relative;
         top:40px;
+    }
+    @include smallLanscape{
+        position: relative;
+        top:50px;
+    }
+    
+    @include MediumDevices{
+        position: relative;
+        top: 130px;
+    }
+    @include LGPortrait{
+        top: 200px;
+    }
+}
+
+.MuiTypographybody1 {
+    font-size: 0.75rem !important;
+    @include smallLanscape{
+        font-size: 0.9rem !important;
+    }
+    @include MediumDevices{
+        font-size: 0.9rem !important;
+    }
+    @include Largedevices{
+        font-size: 1rem !important;
+    }
+    @include Extralarge{
+        font-size: 1.15rem !important;
     }
 }

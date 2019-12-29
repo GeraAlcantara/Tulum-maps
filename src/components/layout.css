@@ -4,7 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  height: 100%vh;
+  height: 100vh;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
