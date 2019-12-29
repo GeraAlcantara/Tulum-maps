@@ -29,7 +29,7 @@ module.exports = {
         short_name: `Tulum-Maps`,
         start_url: `/`,
         background_color: `#F34B68`,
-        theme_color: `#663399`,
+        theme_color: `#F34B68`,
         display: `minimal-ui`,
         icon: `src/images/tulum-maps-icon.png`, // This path is relative to the root of the site.
       },
