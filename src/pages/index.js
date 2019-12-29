@@ -6,44 +6,44 @@ import PeopleSvg from  "../svg/people.svg"
 import Button from "@material-ui/core/Button"
 import CloudDownloadIcon from "@material-ui/icons/CloudDownload"
 import SEO from "../components/seo"
-import { makeStyles } from "@material-ui/core/styles"
+// import { makeStyles } from "@material-ui/core/styles"
 import styles from "../styles/index.module.scss"
 import Pdf from "../static/MapainteractivoTulum.pdf"
 
 
-const useStyles = makeStyles(theme => ({
-  splitscreen: {
-    [theme.breakpoints.down("xs")]: {
-      maxWidth: 140,
-      margin: "0 auto",
-    },
-    [theme.breakpoints.between("xs", "sm")]: {
-      maxWidth: 140,
-      margin: "0 auto",
-    },
-    [theme.breakpoints.up("sm")]: {
-      maxWidth: 200,
-      margin: "0 auto",
-    },
-    [theme.breakpoints.up("md")]: {
-      maxWidth: 250,
-      margin: "0 auto",
-    },
-    [theme.breakpoints.up("lg")]: {
-      maxWidth: 300,
-    },
-  },
-  wrapperAction: {
-    [theme.breakpoints.down("xs")]: {
-      color: "white",
-      minHeight: 180,
-    },
-    [theme.breakpoints.up("lg")]: {
-      color: "white",
-      minHeight: 300,
-    },
-  },
-}))
+// const useStyles = makeStyles(theme => ({
+//   splitscreen: {
+//     [theme.breakpoints.down("xs")]: {
+//       maxWidth: 140,
+//       margin: "0 auto",
+//     },
+//     [theme.breakpoints.between("xs", "sm")]: {
+//       maxWidth: 140,
+//       margin: "0 auto",
+//     },
+//     [theme.breakpoints.up("sm")]: {
+//       maxWidth: 200,
+//       margin: "0 auto",
+//     },
+//     [theme.breakpoints.up("md")]: {
+//       maxWidth: 250,
+//       margin: "0 auto",
+//     },
+//     [theme.breakpoints.up("lg")]: {
+//       maxWidth: 300,
+//     },
+//   },
+//   wrapperAction: {
+//     [theme.breakpoints.down("xs")]: {
+//       color: "white",
+//       minHeight: 180,
+//     },
+//     [theme.breakpoints.up("lg")]: {
+//       color: "white",
+//       minHeight: 300,
+//     },
+//   },
+// }))
 
 const IndexPage = () => {
   return (

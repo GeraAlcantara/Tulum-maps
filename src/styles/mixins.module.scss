@@ -1,0 +1,64 @@
+@import 'variables.module.scss';
+
+@mixin XSLandscape {
+  @media (max-width: 574px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin smallLanscape {
+  @media (min-width: #{$smallLanscape}) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin smallLGLanscape {
+  @media (min-width: #{$smallLGLanscape}) and (max-height: 600px) and (orientation : landscape ) {
+    @content;
+  }
+}
+
+@mixin iphoneXcards {
+  @media (width: 812px) and (height: 375px) and (orientation : landscape) {
+    @content;
+  }
+}
+
+@mixin LGPortrait {
+  @media (min-height: 812px) and (orientation: portrait ) {
+    @content;
+  }
+  
+}
+
+@mixin MediumDevices {
+  @media (min-width: #{$MediumDevices}) and (min-height: 601px){
+    @content;
+  }
+}
+
+@mixin Largedevices {
+  @media (min-width: #{$Largedevices}) {
+    @content;
+  }
+}
+
+@mixin LargedevicesPortrait {
+  @media (min-width: 1024px) and (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin Extralarge {
+  @media (min-width: #{$Extralarge}) {
+    @content;
+  }
+}
+
+/* positionin mixins */
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

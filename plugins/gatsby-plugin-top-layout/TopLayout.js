@@ -1,7 +1,7 @@
 import React from "react"
 import theme from "../../src/theme"
 import PropTypes from "prop-types"
-import { Helmet } from "react-helmet"
+// import { Helmet } from "react-helmet"
 import CssBaseline from "@material-ui/core/CssBaseline"
 import { ThemeProvider } from "@material-ui/core/styles"
 

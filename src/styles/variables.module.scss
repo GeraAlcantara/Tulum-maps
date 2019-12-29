@@ -1,0 +1,26 @@
+
+$font-weights: (
+    "regular": 300,
+    "medium": 400,
+    "bold": 700
+);
+
+$fontFamilyBase: Arial, Helvetica, sans-serif;
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+$smallLanscape:575.98px;
+
+// Small devices max height landscape (landscape phones, 576px and up)
+$smallLGLanscape: 731px;
+
+// Medium devices (tablets, 768px and up)
+$MediumDevices: 768px;
+
+// Large devices (desktops, 992px and up)
+$Largedevices: 992px;
+
+// Extra large devices (large desktops, 1200px and up)
+$Extralarge: 1200px;

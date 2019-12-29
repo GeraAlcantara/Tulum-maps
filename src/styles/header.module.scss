@@ -1,0 +1,30 @@
+@import "mixins.module.scss";
+
+.headerstyle{
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    & img{
+        width: 30px;
+        margin-bottom: 0;
+        margin-right: 10px;
+
+        @include MediumDevices {
+            width: 40px !important;
+        }
+    }
+
+    @include XSLandscape {
+        padding: .75rem 1rem !important;
+    }
+
+    @include MediumDevices {
+        padding: 1.45rem 1.085rem !important;
+    }
+    
+
+}
