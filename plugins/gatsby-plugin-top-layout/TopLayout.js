@@ -9,12 +9,7 @@ import { ThemeProvider } from "@material-ui/core/styles"
 export default function TopLayout(props) {
   return (
     <React.Fragment>
-      <Helmet>
-        <link
-          href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
-          rel="stylesheet"
-        />
-      </Helmet>
+     
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />

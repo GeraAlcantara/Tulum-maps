@@ -22,7 +22,7 @@ let theme = createMuiTheme({
     },
   },
   typography: {
-    fontFamily: '"Fredoka One", "Helvetica", "Arial", sans-serif',
+    fontFamily: '"Fredoka One", "Helvetica", Arial, sans-serif',
     
   },
   

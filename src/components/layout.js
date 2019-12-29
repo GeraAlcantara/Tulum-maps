@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import WrapperVh from "./WrapperVh"
+import "fredoka-one"
 
 import Header from "./header"
 import "./layout.css"
