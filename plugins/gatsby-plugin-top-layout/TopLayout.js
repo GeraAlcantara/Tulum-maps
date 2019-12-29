@@ -1,16 +1,17 @@
 import React from "react"
+import theme from "../../src/theme"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import CssBaseline from "@material-ui/core/CssBaseline"
 import { ThemeProvider } from "@material-ui/core/styles"
-import theme from "../../src/theme"
+
 
 export default function TopLayout(props) {
   return (
     <React.Fragment>
       <Helmet>
         <link
-          href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
+          href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
           rel="stylesheet"
         />
       </Helmet>
