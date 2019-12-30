@@ -7,6 +7,7 @@ import CloudDownloadIcon from "@material-ui/icons/CloudDownload"
 import SEO from "../components/seo"
 import styles from "../styles/index.module.scss"
 import Pdf from "../static/MapainteractivoTulum.pdf"
+import PdfTwo from "../static/Mapainteractivo.pdf"
 
 
 const IndexPage = () => {
@@ -36,15 +37,28 @@ const IndexPage = () => {
           >
             without getting lost
           </Typography>
-          <Button
-            variant="contained"
-            color="secondary"
-            href={Pdf}
-            download="Tulum-maps"
-            startIcon={<CloudDownloadIcon />}
-          >
-            PDF Map
-          </Button>
+
+          <div className={styles.wrapperbtns}>
+            <Button
+              variant="contained"
+              color="secondary"
+              href={Pdf}
+              download="Tulum-maps"
+              startIcon={<CloudDownloadIcon />}
+            >
+              PDF Map 1
+            </Button>
+            <Button
+              className={styles.downbtn}
+              variant="contained"
+              color="secondary"
+              href={PdfTwo}
+              download="Tulum-maps"
+              startIcon={<CloudDownloadIcon />}
+            >
+              Map 2
+            </Button>
+          </div>
         </div>
       </div>
     </Layout>
