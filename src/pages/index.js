@@ -53,7 +53,7 @@ const IndexPage = () => {
               variant="contained"
               color="secondary"
               href={PdfTwo}
-              download="Tulum-maps"
+              download="Tulum-maps-and-yucatan"
               startIcon={<CloudDownloadIcon />}
             >
               Map 2
