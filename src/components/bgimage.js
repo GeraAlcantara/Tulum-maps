@@ -9,7 +9,7 @@ const Backgroundsection = ({ className, children }) => (
       query {
         desktop: file(relativePath: { eq: "tulum.jpg" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 1920) {
+            fluid(quality: 100, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
