@@ -12,7 +12,7 @@ const WrapperVh = ({ children }) => (
       backgroundPosition: `center`,
       height: `100vh`,
       overflow: `hidden`,
-      
+      backgroundColor: `rgb(0, 122, 130)`,
     }}
   >
     {children}
