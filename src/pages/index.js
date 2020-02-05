@@ -16,7 +16,13 @@ const IndexPage = () => {
       <SEO title="Home" />
 
       <div className={styles.wrapperLanding}>
-        <img src={PeopleSvg} alt="" />
+        {/* <img
+          src={PeopleSvg}
+          alt=""
+          style={{
+            display: `none`,
+          }}
+        /> */}
         <div>
           <Typography variant="h4" component="h2">
             Explore
