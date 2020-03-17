@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Typography } from "@material-ui/core"
-import PeopleSvg from  "../svg/people.svg"
 import Button from "@material-ui/core/Button"
 import CloudDownloadIcon from "@material-ui/icons/CloudDownload"
 import SEO from "../components/seo"
